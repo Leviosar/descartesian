@@ -1,4 +1,5 @@
 const p5 = require('../../node_modules/p5/lib/p5.min')
+import './../scss/main.scss'
 
 export default class Cartesian{
 

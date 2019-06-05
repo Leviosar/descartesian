@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var p5 = require('../../node_modules/p5/lib/p5.min');
+require("./../scss/main.scss");
 var Cartesian = /** @class */ (function () {
     function Cartesian(options) {
         this.gridSize = 20;
