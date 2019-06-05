@@ -91,5 +91,5 @@ var Descartesian = /** @class */ (function () {
     };
     return Descartesian;
 }());
-exports.Descartesian = Descartesian;
-//# sourceMappingURL=Cartesian.js.map
+exports.default = Descartesian;
+//# sourceMappingURL=Descartesian.js.map

@@ -1,3 +1,5 @@
-import Descartesian from './js/Cartesian'
-export default Descartesian
-window.Descartesian = Descartesian
+import Descartesian from './js/Descartesian'
+
+if(window !== undefined){
+    window.Descartesian = Descartesian
+}

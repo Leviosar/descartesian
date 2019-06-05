@@ -1,7 +1,6 @@
 const p5 = require('../../node_modules/p5/lib/p5.min')
-import './../scss/main.scss'
 
-export default class Cartesian{
+export default class Descartesian {
 
     private container:HTMLObjectElement
     private canvas:HTMLCanvasElement|undefined|any
@@ -23,6 +22,7 @@ export default class Cartesian{
             p.setup = ()=>{
                 this.canvas = p.createCanvas(this.container.offsetWidth, this.container.offsetHeight)
                 this.canvas.canvas.classList.add('descartesian_canvas')
+                this.container.appendChild(this.canvas.elt)
                 this.canvas.canvas.addEventListener('contextmenu', (ev:MouseEvent)=> ev.preventDefault())
                 this.canvas.canvas.addEventListener('mousedown', (ev:MouseEvent)=> this.clicked(ev))
                 p.background(255)
